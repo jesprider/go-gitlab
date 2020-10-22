@@ -92,6 +92,7 @@ type Issue struct {
 	Links             *IssueLinks      `json:"_links"`
 	IssueLinkID       int              `json:"issue_link_id"`
 	MergeRequestCount int              `json:"merge_requests_count"`
+	Epic              *Epic            `json:"epic"`
 }
 
 func (i Issue) String() string {
