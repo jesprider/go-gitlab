@@ -300,6 +300,7 @@ type Client struct {
 	Deployments           *DeploymentsService
 	Discussions           *DiscussionsService
 	Environments          *EnvironmentsService
+	Epics                 *EpicsService
 	Events                *EventsService
 	Features              *FeaturesService
 	GitIgnoreTemplates    *GitIgnoreTemplatesService
